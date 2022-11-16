@@ -33,6 +33,7 @@ class RestaurantDetails extends Component {
       },
       method: 'GET',
     }
+
     const response = await fetch(url, options)
     const data = await response.json()
     const restaurantData = {
